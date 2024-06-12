@@ -1,0 +1,210 @@
+body{
+  margin: 0;
+  width: 1920px;
+}
+
+#mainvisual > img{
+  margin: 0;
+  width: 1920px;
+  height: 600px;
+  object-fit: cover;
+}
+
+/* profile ヘッダーロゴ */
+.field > img{
+  margin: 15px 0 5px 0;
+  width:120px;
+  height: auto;
+  position: relative;
+  left:550px;
+  top:-5px
+}
+
+#header{
+  display: flex;
+}
+
+.field{
+  display: flex;
+  
+}
+
+.field > p{
+  position: relative;
+  left: 1100px;
+  margin: 20px 17px;
+  font-size: 14px;
+}
+
+#about{
+  text-align: center;
+  position: relative;
+}
+
+#about > h2{
+  display:inline-block;
+  font-size: 33px;
+  margin: 40px 0 100px 0;
+  color: #575757;
+  border-bottom:1px solid #575757;
+  position: relative;
+  top: 40px;
+}
+
+.person > img{
+  width :100px;
+  height :100px;
+  border-radius:50%;
+  position: absolute;
+  top: 200px;
+  left:700px;
+}
+
+.person > p{
+  position:relative;
+  left:65px;
+  font-size: 14px;
+  top:-13px;
+}
+
+.person > h3{
+  position:relative;
+  left:-50px;
+  top: -5px;
+  font-size: 16px;
+}
+
+.div > img{
+  display: flex;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  position: relative;
+}
+
+#bicycle{
+  text-align: center;
+}
+
+#bicycle > h2 {
+  display:inline-block;
+  text-align: center;
+  position: relative;
+  font-size: 33px;
+  color: #575757;
+  border-bottom:1px solid #575757;
+  top: 25px;
+  margin: 50px;
+}
+
+li > img{
+  width: 40%;
+}
+
+.left{
+ position: relative;
+ left:350px;
+}
+
+.right{
+  position: relative;
+  right:350px;
+}
+
+li > h3{
+  margin: 0;
+  font-size: 18px;
+  position: relative;
+}
+
+li > p{
+  font-size: 14px;
+  margin: 0;
+}
+
+@media screen and (max-width: 480px) {
+	/* 480px以下に適用されるCSS（スマホ用） */
+  html,body{
+    width: 375px;
+  
+  }
+  
+  #mainvisual> img {
+  
+    width: 120%;
+  }
+
+
+  .field > img{
+    position: absolute;
+    left: 20px;
+  
+  }
+  .field > p{
+    position: relative;
+    left: 200px;
+  }
+
+  .person > img{
+    position: relative;
+    left: 5px;
+    top:-15px
+  }
+
+  .person > p{
+    position: relative;
+    left: 15px;
+    top:-10px 
+  }
+
+  .person > h3{
+    position: relative;
+    left: 12px;
+    top:-10px 
+  }
+
+
+  .about{
+    flex-direction: column;
+  }
+
+  #bicycle ul {
+    flex-direction: column;
+  }
+  #bicycle li {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .left{
+    position: relative;
+    left:-15px;
+   }
+
+   .center{
+    position: relative;
+    left:-15px;
+   }
+
+   .right{
+    position: relative;
+    left:-15px;
+   }
+
+  li > img{
+    width:100%;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
